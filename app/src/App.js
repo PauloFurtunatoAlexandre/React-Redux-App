@@ -8,7 +8,7 @@ import AnimesList from "./components/animes-list/animes-list";
 function App(props) {
   return (
     <div className="App">
-      <h2>Ghibli Anime Studio Search</h2>
+      <h2 className="header-title">Ghibli Anime Studio Search</h2>
       <AnimeSearch />
       <AnimesList />
     </div>

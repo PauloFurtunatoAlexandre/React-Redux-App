@@ -1,6 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 
+import "./animes.scss"
+
 import { fetchAllAnimes } from "../../actions/actions";
 
 const AnimeSearch = (props) => {
@@ -10,7 +12,7 @@ const AnimeSearch = (props) => {
 
   return (
     <div className="container">
-      <button onClick={() => props.fetchAllAnimes()}>Search All Animes</button>
+      <button className="search-button" onClick={() => props.fetchAllAnimes()}>Search All Animes</button>
       <div style={{ color: "red" }}>{props.error}</div>
       {console.log("fetching animes here 1: ", props.animes)}
     </div>

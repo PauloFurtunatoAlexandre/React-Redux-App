@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background: url(https://wallpaperaccess.com/full/494420.jpg) center center repeat;
+}
+
+body {
+  margin: 0;
 }
 
 .App-logo {
@@ -37,8 +42,20 @@
   }
 }
 
+.header-title {
+  margin: 0 0 40px;
+  padding: 20px 0;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 1px #333;
+  background: #50937299;
+  box-shadow: 1px 1px 1px #333;
+}
+
 h1, h2, h3, h4, h5, h6, p, span {
   font-family: sans-serif;
+  line-height: 1.4rem;
+  margin-bottom: 10px;
 }
 
 h1, h2, h3 {
