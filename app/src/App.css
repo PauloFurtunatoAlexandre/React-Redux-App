@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  background: url(https://wallpaperaccess.com/full/494420.jpg) center center repeat;
+}
+
+body {
+  margin: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-title {
+  margin: 0 0 40px;
+  padding: 20px 0;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 1px #333;
+  background: #50937299;
+  box-shadow: 1px 1px 1px #333;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: sans-serif;
+  line-height: 1.4rem;
+  margin-bottom: 10px;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+h4, h5, h6 {
+  font-weight: 300;
+}
